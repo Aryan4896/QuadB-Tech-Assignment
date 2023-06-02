@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: medium;
+  font-size: large;
+}
+html {
+  scroll-behavior: smooth;
+}
+.img-holder {
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .img-holder,
+  .btn-holder,
+  .heading-holder {
+    display: flex;
+    justify-content: center;
+  }
+  .img-holder {
+    margin-top: 20px;
+  }
+}
